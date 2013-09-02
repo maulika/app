@@ -1,0 +1,227 @@
+
+body {
+    background: url("images/bg.jpg") repeat scroll center top transparent;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 40px;
+}
+.wrapper {
+}
+.wrapper h1 {
+    color: #CA5724;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 21px;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+}
+.login {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 250px auto 0;
+    padding: 20px;
+    width: 300px;
+}
+.login h1 {
+    border-bottom: 1px dotted #CCCCCC;
+    color: #CA5724;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 21px;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+}
+.login tr {
+}
+.login tr td {
+}
+.login tr td input[type="text"] {
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    width: 180px;
+}
+.login tr td input[type="password"] {
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    width: 180px;
+}
+.login tr td input[type="submit"] {
+    background: none repeat scroll 0 0 #DF733B;
+    border: 1px solid #C85425;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.top-nav {
+    background: none repeat scroll 0 0 #C65323;
+    border: 1px solid #BA4717;
+    margin-bottom: 30px;
+}
+.top-nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.top-nav ul li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.top-nav ul li a {
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.top-nav ul li a:hover {
+    background: none repeat scroll 0 0 #E57C44;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.grid-view {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+}
+.grid {
+    border: 1px solid #E9E9E9;
+    line-height: 104px;
+    margin: 5px;
+    padding: 20px;
+}
+.grid a {
+    color: #000000;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.grid a:hover {
+    color: #D76932;
+    text-decoration: none;
+}
+.grid img {
+    float: left;
+    margin-right: 10px;
+}
+.fr {
+    float: right;
+}
+.from {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-size: 13px;
+    padding: 20px;
+}
+.from tr td input[type="text"] {
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    width: 400px;
+}
+.from tr td textarea {
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    width: 400px;
+}
+.from tr td input[type="password"] {
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    width: 400px;
+}
+.from tr td input[type="submit"] {
+    background: none repeat scroll 0 0 #DF733B;
+    border: 1px solid #C85425;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.table {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+.table tr {
+}
+.table tr td {
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    padding: 5px;
+}
+.table tr th {
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #000000;
+    font-size: 13px;
+    padding: 5px;
+}
+.table tr td a {
+    color: #000000;
+    text-decoration: none;
+}
+.table tr td a:hover {
+    color: #C04C1B;
+    text-decoration: none;
+}
+.button {
+    background: none repeat scroll 0 0 #DF733B;
+    border: 1px solid #C85425;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.success {
+    color: #009900;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+}
+.link {
+    background: none repeat scroll 0 0 #CCCCCC;
+    padding: 5px 10px;
+    text-align: center;
+    width: 50px;
+}
+.link a {
+    color: #000000;
+    text-decoration: none;
+}
+.link a:hover {
+    color: #C04C1B;
+    text-decoration: none;
+}
+.list {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+.list li {
+    margin: 0 0 0 20px;
+    padding: 3px 0 3px 15px;
+}
+.bullet {
+    color: #FF3300;
+    text-transform: none;
+}
